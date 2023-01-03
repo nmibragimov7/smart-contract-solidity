@@ -22,7 +22,7 @@ contract Integer {
     }
 
     // unsigned integer - числа без знака (положительные числа), по умолчанию размерность uint256
-    // uint256 - это 2^256 максимальное число
+    // uint256 - это 2^256 максимальное число, где 256 это бит
     uint public myUint = 5;
     function myFunc(uint _input) public {
         uint localUint = 42;

@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.15+commit.e14f2714"
+		"version": "0.8.7+commit.e28d00a7"
 	},
 	"language": "Solidity",
 	"output": {
@@ -139,11 +139,11 @@
 	},
 	"sources": {
 		"contracts/Integer.sol": {
-			"keccak256": "0x7117f2a7c01904671c65873cccaee6590a997953fb8c2b45c872c10cf005245a",
+			"keccak256": "0x71126d7f91638e00dc589490b775af816be24a0b84f4ad96697b1bf64729cf81",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ea2e426612da9047528003dc73fdfc09b3e6296ff1cd89a102e6af565bb5dc76",
-				"dweb:/ipfs/QmR248yV6yLcP82JjZpJGUfaBT7VQk6vEvXPcv7vRc4kZ8"
+				"bzz-raw://17d946f1ac2988cada08e9f71a00f30f0fe462f2909c90db647f461e1e60bac3",
+				"dweb:/ipfs/QmTBPe1pvxLrE9b7UK2WdR2auzt9LMsF1ud6sYe9CdXF5v"
 			]
 		}
 	},

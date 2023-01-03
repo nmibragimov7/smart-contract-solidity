@@ -7,27 +7,28 @@
 		"abi": [
 			{
 				"inputs": [],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
-				"inputs": [],
-				"name": "owner",
+				"name": "get",
 				"outputs": [
 					{
-						"internalType": "address",
+						"internalType": "uint256[]",
 						"name": "",
-						"type": "address"
+						"type": "uint256[]"
 					}
 				],
 				"stateMutability": "view",
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "pay",
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "candidateIdx",
+						"type": "uint256"
+					}
+				],
+				"name": "vote",
 				"outputs": [],
-				"stateMutability": "payable",
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -38,12 +39,12 @@
 						"type": "address"
 					}
 				],
-				"name": "payments",
+				"name": "voters",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "bool",
 						"name": "",
-						"type": "uint256"
+						"type": "bool"
 					}
 				],
 				"stateMutability": "view",
@@ -51,9 +52,15 @@
 			},
 			{
 				"inputs": [],
-				"name": "withdrawAll",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"name": "winningCandidate",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "_winningCandidate",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -70,7 +77,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/MyShop.sol": "MyShop"
+			"contracts/Ballot.sol": "Ballot"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -84,12 +91,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/MyShop.sol": {
-			"keccak256": "0xf3a498060067597eb5cda41307f8385ceffbed49b246fc70f63ae93cf4667c87",
-			"license": "MIT",
+		"contracts/Ballot.sol": {
+			"keccak256": "0xc265ca077ea217b16f1abc90506f2e0bf5b8f09e156484cb445bad2dcf27d026",
+			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://638973da29ab1941d8b1bafb97f7b4940dba0283b25971b93ae08e2ccb58bba1",
-				"dweb:/ipfs/QmfJ7XeQG6yMjbctFPkjxLoCSoJLsb1TD1Exrb9r1PLNEg"
+				"bzz-raw://289560c9c9d76d4b89376d22db12cae3340a0546d5473c515d40e1ce4b1c6bef",
+				"dweb:/ipfs/QmU5bJgxAPvffph247DZwwYsG8dsaTSq5Sq8wGWJA2UD9e"
 			]
 		}
 	},
